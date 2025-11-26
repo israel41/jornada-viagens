@@ -1,3 +1,25 @@
+:root{
+    --background-primary-color:#ffffff;
+    --background-secondary-color:#f5f5f5;
+    --background-tertiary-color:#0000;
+
+
+    --botonn-primary-color:#8F0101;
+    --botonn-secondary-color:#B81515;
+
+
+    --text-primary-color: #222222;
+    --text-secondary-color: #FFFFFF;
+
+    
+
+
+    
+}
+
+
+
+
 body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
     margin: 0;
     padding: 0;
