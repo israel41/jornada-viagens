@@ -22,7 +22,7 @@
 }
 
 
-.card header{
+.offers-cards .card header{
     display: block;
     position: static;
     background-color: transparent;
