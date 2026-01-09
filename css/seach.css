@@ -1,0 +1,48 @@
+
+.search-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+    
+   
+   
+}
+
+
+
+.search-card {
+    
+    display: flex;
+    background-color: var(--background-secondary-color);
+    width: 312px;
+    height: 220px;
+    position: static;   
+    border-radius: 8px;
+    
+
+}
+
+.seach-button {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.seach-button .seach-icon {
+    margin: 41px 116px 0 116px; 
+    
+}
+
+
+.seach-button h4 {
+    color: var(--text-primary-color);
+    font-size: 28px;
+    font-weight: 700px;
+    margin: 24px 16px 41px 16px;
+    
+}
