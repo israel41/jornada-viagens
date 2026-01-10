@@ -1,14 +1,134 @@
+
+
+
+
+.destinations .item{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 .destinations .item header{
     display: block;
     position: static;
-    background-color: transparent;
+    background-color: transparent;   
     padding: 0;
-    margin-bottom: 24px;
-    
 
+}
+
+.destination-items .item{
+    display: flex;
+    align-items: center;
+    
+}
+
+.item .img-item{
+    width: 312px;
+    height: 360px;
+    
+}
+.destinations .item header h4{
+    font-size: 28px;
+    font-weight: var(--title-weight);    ;
+    margin: 24px 0;
+
+}
+
+.destination-items .item p{
+    width: 312px;
+    height: 224px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+
+}
+
+.destination-items .item footer .button{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.item .tokyo{
+    background: url(/img/tokyo-mobile.jpg) center no-repeat ;
+} 
+
+.item .osaka{
+    background: url(/img/osaka-mobile.jpg) center no-repeat;
 }
 
 .item p{
     font-size: 20px;
     font-weight: var(--text-weight);
+}
+
+@media screen and ( min-width: 768px ){
+    
+    .destination-items{
+        gap: 40px;
+    }
+    .destination-items .item{
+        margin:   0;
+        padding: 0;
+        
+    }
+    
+    .item .img-item{
+        width: 648px;
+    
+    }
+    .destination-items .item .tokyo{
+        background: url(/img/tokyo-tablet.jpg) center no-repeat ;
+    
+    } 
+
+    .destination-items .item .osaka{
+        background: url(/img/osaka-tablet.jpg) center no-repeat;
+    }
+
+    .destination-items .item p{
+        width: 648px;
+        height: 96px;
+
+    }
+
+    .destination-items .item footer{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 120px;
+    }
+
+}
+
+@media screen and ( min-width: 1024px ) {
+    .destination-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+    .destination-items .item {
+        width: 480px;
+        align-items: flex-start;
+    }
+
+    .item .img-item{
+        width: 400px;        
+    }
+
+    .destination-items .item p {
+        width: 100%;               /* O parágrafo segue a largura do card */
+        height: auto;              /* Altura automática para não cortar texto */
+    }
+
+    .destination-items .item footer {
+        padding-left: 0;           /* Remove o padding grande que você usou no tablet */
+    }
+
+
+
+
+
 }
