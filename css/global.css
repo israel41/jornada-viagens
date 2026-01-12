@@ -76,10 +76,11 @@ body{
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin-bottom: 24px;
 
 }
 .content-texto{
-  font-size: 20px;
+  font-size: 0 0 24px 0;
   font-weight: var(--text-weight);
   line-height: 32px;
 }

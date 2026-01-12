@@ -60,8 +60,7 @@
     font-weight: var(--text-weight);
 }
 
-@media screen and ( min-width: 768px ){
-    
+@media screen and ( min-width: 768px ){ 
     
     
     .item .img-item{
@@ -87,7 +86,7 @@
         align-self: flex-start; 
         padding-left: 8%;
     }
-
+}
 
 @media screen and ( min-width: 1024px ) {
     .destination-items{
@@ -96,22 +95,23 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 24px;
+        padding: 0 auto;
     }
     .destination-items .item {
-        width: 480px;
+        width: 400px;
         align-items: flex-start;
     }
 
     .item .img-item{
-        width: 480px;        
+        width: 400px;        
     }
 
     .destination-items .item p {
         width: 100%;               /* O parágrafo segue a largura do card */
-        height: auto;              /* Altura automática para não cortar texto */
+        height: 50%;              /* Altura automática para não cortar texto */
     }
 
     .destination-items .item footer {
         padding-left: 0;           /* Remove o padding grande que você usou no tablet */
     }
-}}
+}
