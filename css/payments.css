@@ -1,9 +1,112 @@
 
-.payments {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+
+
+
+.payments .content-conteiner .text-contet{
+    margin: 0 13% 0 13%;
+    gap: 24px;
+}
+
+.payments .content-conteiner .text-contet .content-title{
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.payments .content-conteiner .image-content{
+    display: grid;
+    height: 460px;
+    grid-template-columns: 144px 144px;
+    gap: 24px;
+    margin-top: 24px;
     justify-content: center;
 }
- 
+.payments  .content-conteiner.image-content .bag{
+    background: url(/img/grid-malas-mobile.png) center no-repeat;
+    background-size: cover;
+    
+}
 
+.payments .content-conteiner .image-content .passport{
+    background: url(/img/grid-passaport-mobile.png) center no-repeat;
+    background-size: cover;
+    
+}
+
+
+.payments .content-conteiner .image-content .people{
+    background: url(/img/grid-pessoas-mobile.png) center no-repeat;
+    background-size: cover;  
+    
+}
+
+.payments .content-conteiner .image-content .colspan-2{
+    grid-column: span 2;
+}
+
+
+@media screen and (min-width: 768px) {
+    .payments .content-conteiner .text-contet{
+       margin: 0 64px;
+}
+    
+    
+    
+    .payments .content-conteiner .image-content{
+        grid-template-columns: 312px 312px;
+    }
+    .payments .content-conteiner .image-content .bag{
+    background: url(/img/grid-malas-tablet.png) center no-repeat;
+    background-size: cover;
+    
+}
+
+.payments .content-conteiner .image-content .passport{
+    background: url(/img/grid-passaport-tablet.png) center no-repeat;
+    background-size: cover;
+    
+}
+
+
+.payments .content-conteiner  .image-content .people{
+    background: url(/img/grid-pessoas-tablet.png) center no-repeat;
+    background-size: cover;  
+    
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .payments .content-conteiner {
+        display: flex;
+        margin: 0 64px;
+}
+    .payments .content-conteiner  .text-content{
+       width: 360px;
+    }
+    .payments .content-conteiner .image-content{
+       width: 780px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1440px) {
+    .payments .content-conteiner {
+        display: flex;
+        margin: 0 auto;
+}
+    .payments .content-conteiner  .text-content{
+       width: 360px;
+    }
+    .payments .content-conteiner .image-content{
+       width: 780px;
+    }
+    
+}
