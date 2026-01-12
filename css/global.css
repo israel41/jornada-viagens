@@ -33,9 +33,25 @@ button {
 }
 
 
+
 body{
   font-family: "montserrat";
   color: var(--text-primary-color);
+}
+
+.section{
+  width: 312px;
+  margin: 0 auto;
+}
+
+.section.hero{
+  width: 100%;
+}
+
+
+.section-title {
+  width: 280px;
+  margin: 0 auto;
 }
 
 .section-title h2 {
@@ -68,13 +84,46 @@ body{
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
+  text-align: center;
 
 
 }
 @media screen and (min-width: 780px) {
+  
+  .section-title{
+  width: 100%;
+  
+}
+  
   .section-title h2 {
     font-size: 32px;
   }
   
+  .section{
+  width: 648px;
+  margin: 0 auto;
+ }
+
 }
+
+@media screen and (min-width: 1024px) {
+  .button:hover{
+    background-color: var(--primary-color);
+  }
+  
+  .section{
+  width: 900px;
+}
+
+}
+
+
+@media screen and (min-width: 1440px) { 
+  
+  .section{
+  width: 1200px;
+}
+
+}
+
 
