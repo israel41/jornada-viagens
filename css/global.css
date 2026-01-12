@@ -73,6 +73,18 @@ body{
 
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+
+}
+.content-texto{
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+
 .button {
   width: 280px;
   height: 64px;
