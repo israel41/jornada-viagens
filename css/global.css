@@ -43,9 +43,12 @@ body{
   margin: 0 24px;
 }
 
+
+
 .section{
   width: 312px;
   margin: 0 auto;
+  
 }
 
 .section.hero{
