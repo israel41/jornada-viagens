@@ -39,6 +39,10 @@ body{
   color: var(--text-primary-color);
 }
 
+.margem-page{
+  margin: 0 24px;
+}
+
 .section{
   width: 312px;
   margin: 0 auto;
@@ -130,7 +134,10 @@ body{
 
 }
 @media screen and (min-width: 768px) {
-  
+  .margem-page{
+  margin: 0 60px;
+}
+
   .section-title{
   width: 100%;
   
@@ -163,6 +170,10 @@ body{
 }
 
 @media screen and (min-width: 1024px) {
+  .margem-page{
+  margin: 0 50px;
+}
+
   .button:hover{
     background-color: var(--primary-color);
   }
@@ -184,7 +195,10 @@ body{
 
 
 @media screen and (min-width: 1440px) { 
-  
+  .margem-page{
+  margin: 0 120px;
+}
+
   .section{
   width: 1200px;
 }
