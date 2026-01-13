@@ -39,10 +39,7 @@
     align-items: center;
 }
 
-.destination .button{
-    width: 100%;
-    margin: 24px;    
-}
+
 .item .tokyo{
     background: url(/img/tokyo-mobile.jpg) center no-repeat ;
     background-size: contain;

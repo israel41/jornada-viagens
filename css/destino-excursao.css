@@ -1,0 +1,26 @@
+.destination-excursao .section-title{
+    margin-top: 88px;
+}
+
+
+
+
+.destination-excursao .item header{
+    display: block;
+    position: static;
+    background-color: transparent;   
+    padding: 0;
+
+}
+
+.destination-excursao .item header h4{
+    margin: 24px 0 0 0;
+    
+
+}
+
+.destination-excursao .item footer{
+    padding:0 0 24px;
+}
+
+
