@@ -32,6 +32,16 @@
   margin-top: 88px;
 }
 
+/* botton hero do contato */
+.hero-botton-contato .hero-img{
+    background: url(/img/contato-img/hero-botton-contato-mobile.jpg) center no-repeat;
+    background-size: cover;
+       
+}
+
+
+
+
 @media screen and (min-width: 768px) {
   .hero-destination {
     height: 620px;
@@ -53,6 +63,15 @@
       no-repeat;
     background-size: cover;
   }
+  /* botton hero do contato */
+  .hero-botton-contato .hero-img{
+    background: url(/img/contato-img/hero-botton-contato-tablet.png) center no-repeat;
+    background-size: cover;
+       
+}
+
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -61,6 +80,9 @@
     padding: 150px 69px 90px 100px;
   }
 }
+
+
+
 
 @media screen and (min-width: 1440px) {
   .hero-destination {
@@ -77,4 +99,14 @@
   .botton-hero-pacotes .hero-img {
     height: 600px; /* Aumentando a altura da seção inferior */
   }
+
+   /* botton hero do contato */
+  .hero-botton-contato .hero-img{
+    background: url(/img/contato-img/hero-botton-contato-desktop.png) center no-repeat;
+    background-size: cover;
+       
+}
+
+
+
 }
