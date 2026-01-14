@@ -87,7 +87,7 @@
     }
     
     .search-card{
-         width: 281px;
+         width: 235px;
          height: 220px;
 
     }
@@ -114,6 +114,9 @@
 }
 
 @media  screen and ( min-width: 1440px ) {
+    .search{
+        width: 1200px;
+    }
     .search-cards{
       margin-top: 104px;
       margin-bottom: 104px;

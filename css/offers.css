@@ -79,6 +79,11 @@
   }
 
 @media screen and ( min-width: 1024px) {
+  .offers-cards{
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
   .card{
       width: 420px;
       height: 308px;
@@ -94,18 +99,10 @@
 }
 
 @media screen and ( min-width: 1440px) {
-  .card{
-      width: 588px; 
-
-  }
- 
-}
-
-@media screen and ( min-width: 1920px) {
-  .offers-cards {
-      width: 1250px;
+   .offers-cards {
       margin: 0 auto;  
 
   }
  
 }
+

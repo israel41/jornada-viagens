@@ -10,6 +10,12 @@
     box-sizing: border-box;
 }
 
+/* hero do blog */
+.hero-blog{
+    background: url('../img/blog-img/hero-blog.jpg') center no-repeat;
+    background-size: cover;
+    
+}
 
 
 
@@ -28,14 +34,7 @@
 }
 
 
-.hero h2{
-   padding: 88px 60px;
-   margin: 0px;
-   font-weight: var(--text-weight);
-   font-size: 32px;
-   text-align: center;
-   line-height: 1.5;
-}
+
 
 @media screen and (min-width: 768px) {
     .hero-destination{
@@ -43,10 +42,44 @@
         background: url('/img/hero-destination.jpg')  center no-repeat;
         background-size: cover;
         padding: 209px 69px 107px 120px ;
-    }  
+    }
+    .hero-blog{
+    background: url('../img/blog-img/hero-blog-tablet-espelhado.jpg') center no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+    
 
     
 }
 
-  
+@media screen and (min-width: 1024px) {
+    .hero-destination{
+        height: 620px;
+        padding: 150px 69px 90px 100px ;       
 
+    }
+    
+    
+
+
+}   
+
+@media screen and (min-width: 1440px) {
+    .hero-destination {
+        /* Aumentamos a altura para proporcionalizar com a largura da tela 4K */
+        height: 800px; 
+        
+        /* Ajustamos o padding para o conteúdo não ficar colado nas bordas */
+        padding: 250px 200px; 
+        
+        /* Garantir que a imagem de fundo mantenha a qualidade */
+        background-size: cover;
+    }
+
+    .botton-hero-pacotes .hero-img {
+        height: 600px; /* Aumentando a altura da seção inferior */
+    }
+}

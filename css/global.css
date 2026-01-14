@@ -199,7 +199,8 @@ body{
 
 @media screen and (min-width: 1440px) { 
   .margem-page{
-  margin: 0 120px;
+    margin: 0;
+    padding: 0 10%;
 }
 
   .section{
@@ -214,4 +215,10 @@ body{
 
 }
 
+@media screen and (min-width: 2160px) { 
+  .margem-page{
+  margin: 0 25%;
+}
 
+
+}
