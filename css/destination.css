@@ -22,13 +22,12 @@
 .destinations  header h4{
     font-size: 28px;
     font-weight: var(--title-weight);    ;
-    margin: 24px 0;
+    margin: 24px 0 0 0;
 
 }
 
 .destination-items .item p{
     width: 382px;
-    height: 224px;
     font-weight: var(--text-weight);
     line-height: 32px;
 
@@ -50,6 +49,21 @@
     background-size: cover;
 
 }
+
+.item .hiroshima{
+    background: url(/img/blog-img/Hiroshima-mobile.jpg) center no-repeat ;
+    background-size: cover;
+
+}
+
+.item .kyoto{
+    background: url(/img/blog-img/Kyoto-mobile.jpg) center no-repeat ;
+    background-size: cover;
+
+}
+
+
+
 
 .item p{
     font-size: 20px;
