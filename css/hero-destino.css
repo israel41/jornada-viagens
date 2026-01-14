@@ -1,85 +1,80 @@
-
-
-
-.hero-destination{
-    padding: 40px 24px;
-    width: 100%;
-    height: 460px;
-    background: url('../img/hero-destination.jpg') center no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
+.hero-destination {
+  padding: 40px 24px;
+  width: 100%;
+  height: 460px;
+  background: url("../img/hero-destination.jpg") center no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
 }
 
 /* hero do blog */
-.hero-blog{
-    background: url('../img/blog-img/hero-blog.jpg') center no-repeat;
-    background-size: cover;
-    
+.hero-blog {
+  background: url("../img/blog-img/hero-blog.jpg") center no-repeat;
+  background-size: cover;
 }
 
-
-
-
-.botton-hero-pacotes{
-    padding: 0;
-    margin: 0;
+/* hero do contato */
+.hero-contato {
+  background: url(/img/contato-img/hero-contato-img.jpg) center no-repeat;
+  background-size: cover;
 }
 
-.botton-hero-pacotes .hero-img{
-    height: 400px;
-    width: 100%;
-    background: url('../img/footer-mulheres.jpg') center no-repeat;
-    background-size: cover;
-    margin-top: 88px;
+.botton-hero-pacotes {
+  padding: 0;
+  margin: 0;
 }
 
-
-
+.botton-hero-pacotes .hero-img {
+  height: 400px;
+  width: 100%;
+  background: url("../img/footer-mulheres.jpg") center no-repeat;
+  background-size: cover;
+  margin-top: 88px;
+}
 
 @media screen and (min-width: 768px) {
-    .hero-destination{
-        height: 620px;
-        background: url('/img/hero-destination.jpg')  center no-repeat;
-        background-size: cover;
-        padding: 209px 69px 107px 120px ;
-    }
-    .hero-blog{
-    background: url('../img/blog-img/hero-blog-tablet-espelhado.jpg') center no-repeat;
+  .hero-destination {
+    height: 620px;
+    background: url("/img/hero-destination.jpg") center no-repeat;
     background-size: cover;
-    
-    
-    
-}
-    
+    padding: 209px 69px 107px 120px;
+  }
+  /* hero do blog */
+  .hero-blog {
+    background: url("../img/blog-img/hero-blog-tablet-espelhado.jpg") center
+      no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+  }
 
-    
+  /* hero do contato */
+  .hero-contato {
+    background: url(/img/contato-img/hero-contato-img-tablet.jpg) center
+      no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-destination{
-        height: 620px;
-        padding: 150px 69px 90px 100px ;       
-
-    }
-    
-    
-
-
-}   
+  .hero-destination {
+    height: 620px;
+    padding: 150px 69px 90px 100px;
+  }
+}
 
 @media screen and (min-width: 1440px) {
-    .hero-destination {
-        /* Aumentamos a altura para proporcionalizar com a largura da tela 4K */
-        height: 800px; 
-        
-        /* Ajustamos o padding para o conteúdo não ficar colado nas bordas */
-        padding: 250px 200px; 
-        
-        /* Garantir que a imagem de fundo mantenha a qualidade */
-        background-size: cover;
-    }
+  .hero-destination {
+    /* Aumentamos a altura para proporcionalizar com a largura da tela 4K */
+    height: 800px;
 
-    .botton-hero-pacotes .hero-img {
-        height: 600px; /* Aumentando a altura da seção inferior */
-    }
+    /* Ajustamos o padding para o conteúdo não ficar colado nas bordas */
+    padding: 250px 200px;
+
+    /* Garantir que a imagem de fundo mantenha a qualidade */
+    background-size: cover;
+  }
+
+  .botton-hero-pacotes .hero-img {
+    height: 600px; /* Aumentando a altura da seção inferior */
+  }
 }
