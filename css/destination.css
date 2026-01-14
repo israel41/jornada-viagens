@@ -88,7 +88,6 @@
 
     .destination-items .item p{
         width: 648px;
-        height: 96px;
         margin-bottom: 24px;
 
     }
@@ -124,6 +123,44 @@
     .destination-items .item footer {
         padding-left: 0;           /* Remove o padding grande que você usou no tablet */
     }
+
+    
+    
+
+
+
 }
+
+
+@media  screen and (min-width: 1440px) {
+    /* alteraçoes do codigo do blog a parti desse ponto */
+    .blog-destination .destination-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .blog-destination .destination-items .item{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .blog-destination .destination-items .item .img-item {
+        width: 364px;
+        
+
+    }
+    
+    
+
+
+
+}
+
+
 
 
