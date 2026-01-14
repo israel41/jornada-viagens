@@ -1,0 +1,116 @@
+.blog-tokyo .destination-items .item{
+    display: flex;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.blog-tokyo .destination-items .item h4{
+    font-size: 28px;
+    margin: 24px 0 32px 0;
+}
+
+
+.blog-tokyo .destination-items .item p{
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        margin-bottom: 32px;
+
+}
+
+
+.blog-tokyo .destination-items .item .description{
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        width: 312px;
+        line-height: 28px;
+        margin-top: 8px;
+
+}
+
+.blog-tokyo .destination-items .item .content-conteiner .loja{
+    background: url(/img/blog-img/loja-tokyo.png) center no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px ) {
+    .blog-tokyo .destination-items .item .content-conteiner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        width: 100%;
+        
+        
+    }
+
+     .blog-tokyo .destination-items .item .content-conteiner .conteiner-text{
+        width: 312px;
+    }
+
+    .blog-tokyo .destination-items .item .content-conteiner .conteiner-text h4{
+        margin-top: 0;
+    }
+    .blog-tokyo .destination-items .item .content-conteiner .conteiner-text p{
+        margin: 0;
+        padding: 0;
+    }
+
+
+     .blog-tokyo .destination-items .item .content-conteiner .loja{
+        background: url(/img/blog-img/loja-tokyo-tablet.png) center no-repeat;
+        background-size: cover;
+        width: 312px ;
+    }
+
+
+
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .destination-items {
+        align-items: center; /* Centraliza os itens sem usar padding */
+    }
+
+    .blog-tokyo .destination-items .item {
+        width: 100%;
+    }  
+
+    .blog-tokyo .destination-items .item .content-conteiner .loja {
+        background: url(/img/blog-img/loja-tokyo-desktop.png) center no-repeat;
+        background-size: cover;
+        width: 100%; 
+        min-height: 400px; /* Altura mínima para a imagem aparecer bem */
+    }    
+    .blog-tokyo .destination-items .item h4 {
+        margin-top: 0;
+        font-size: 28px;
+    }
+
+    .blog-tokyo .destination-items .item .tokyo{
+        background: url(/img/blog-img/tokyo-city.png) center no-repeat ;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+    .blog-tokyo .destination-items .item .content-conteiner {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Ajuste da imagem para o desktop */
+    .blog-tokyo .destination-items .item .content-conteiner .loja {
+        background: url(/img/blog-img/loja-tokyo-desktop.png) center no-repeat;
+        background-size: cover;
+    }
+
+    /* Ajuste do texto para ocupar o lado do grid */
+    .blog-tokyo .destination-items .item .content-conteiner .conteiner-text {
+        width: 100%;
+    }
+}
